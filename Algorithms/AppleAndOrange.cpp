@@ -51,7 +51,7 @@ int main() {
     
     // instantiate trees
     Tree apple_tree(a, apples);
-    Tree orange_tree(a, oranges);
+    Tree orange_tree(b, oranges);
     
     // get droppings in range
     std::cout << apple_tree.quantity_in_range(start, end) << std::endl;
